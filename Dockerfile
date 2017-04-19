@@ -132,7 +132,7 @@ ADD ./02-beats-input.conf /etc/logstash/conf.d/02-beats-input.conf
 ADD ./10-syslog.conf /etc/logstash/conf.d/10-syslog.conf
 ADD ./11-nginx.conf /etc/logstash/conf.d/11-nginx.conf
 ADD ./30-output.conf /etc/logstash/conf.d/30-output.conf
-ADD ./40-logstash-live-netflow.conf /etc/logstash/conf.d/40-logstash-live-netflow.conf
+ADD ./40-netflow.conf /etc/logstash/conf.d/40-netflow.conf
 
 # patterns
 ADD ./nginx.pattern ${LOGSTASH_HOME}/patterns/nginx
